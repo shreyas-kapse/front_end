@@ -1,6 +1,26 @@
+
 .App {
+  display: flex;
+  flex-wrap: wrap;
   text-align: center;
 }
+.singlebox-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+.navbar-custom {
+  background-color: #e74c3c;
+  width: 100%;
+}
+
+
 
 .App-logo {
   height: 40vmin;
