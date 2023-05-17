@@ -1,25 +1,32 @@
-
 .App {
   display: flex;
-  flex-wrap: wrap;
-  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
-.singlebox-container {
-  width: 100%;
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999; /* Set a high z-index value to ensure the navbar is above other elements */
+  }
+  
+  .singlebox-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 200px; /* Adjust this value as needed */
+  }
+  
+
+.home {
   display: flex;
   flex-wrap: wrap;
+  gap: 20px;
   justify-content: center;
 }
-.nav{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: left;
-}
-.navbar-custom {
-  background-color: #e74c3c;
-  width: 100%;
-}
-
 
 
 .App-logo {
