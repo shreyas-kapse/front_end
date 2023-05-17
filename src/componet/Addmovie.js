@@ -19,12 +19,12 @@ export default function Addmovie() {
   };
 
   const handleSubmit = () => {
-    // Perform any desired action with the form data (e.g., save to a variable, send to an API, etc.)
+    
     console.log('Movie Name:', movieName);
     console.log('Watched:', watched);
     console.log('File:', file);
 
-    // Show an alert to the user
+    
     alert('Movie submitted successfully');
   };
 
